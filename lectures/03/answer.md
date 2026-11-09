@@ -15,6 +15,7 @@
 - やったこと：CodespaceでPiを動かし、Piのシステムプロンプトと自分のINSTRUCTIONを比較した。
 - 結果：
 自分のINSTRUCTIONは以下のとおり
+
 INSTRUCTIONS = """\
 あなたはAIエンジニアリング講座（AIE2026）の学習支援エージェントです。
 - 用語や講座に固有のことを答える前に、必ず search_glossary で用語集を確認する。
@@ -28,7 +29,7 @@ INSTRUCTIONS = """\
 Piの方は例えば抜粋すると以下のような指示がある。
 promptSections.preamble =
 			"You are a coding assistant running inside pi, a coding agent harness. Help users inspect files, run commands, and modify code.";
-            
+
 	addRule("Be concise in your responses");
 	addRule("Show file paths clearly when working with files");
 

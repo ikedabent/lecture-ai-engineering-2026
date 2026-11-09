@@ -38,6 +38,7 @@ INSTRUCTIONS = """\
 - 宿題の答えそのものは書かず、考え方のヒントで導く。
 """
 
+
 # モデルは実行時に渡す（テストではAPIを呼ばない TestModel に差し替えるため）
 agent = Agent(instructions=INSTRUCTIONS)
 agent.tool_plain(tools.search_glossary)

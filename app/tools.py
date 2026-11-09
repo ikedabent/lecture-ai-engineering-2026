@@ -80,6 +80,7 @@ def get_lecture_summary(lecture: int) -> str:
     return path.read_text(encoding="utf-8")
 
 
+
 def make_quiz(lecture: int) -> str:
     """指定した回の用語から1つ選び、確認問題と答えを返す。
 
